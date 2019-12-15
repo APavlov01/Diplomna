@@ -1,0 +1,37 @@
+Dec 12 16:30:43.432 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:43.432 HYPERVISOR: Started on IP = localhost, TCP port = 49873.
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:43.932 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\a6962fc6-ecda-4c44-bb37-053ceea2ca91 
+Dec 12 16:30:43.932 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\a6962fc6-ecda-4c44-bb37-053ceea2ca91
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm create London 14 c7200 
+Dec 12 16:30:43.932 VM: VM London created.
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm set_con_tcp_port London 5013 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: c7200 get_mac_addr London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_add_binding London 0 0 C7200-IO-FE 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm set_disk0 London 0 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm set_exec_area London 64 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm set_idle_pc London 0x63185884 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm set_ios London C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: c7200 set_mac_addr London ca0e.23a4.0000 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm set_nvram London 512 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_remove_binding London 0 0 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_add_binding London 0 0 C7200-IO-GE-E 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_add_binding London 1 0 PA-GE 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_add_binding London 2 0 PA-GE 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_add_binding London 3 0 PA-GE 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_add_binding London 4 0 PA-GE 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm get_status London 
+Dec 12 16:30:43.932 HYPERVISOR: exec_cmd: vm slot_add_binding London 5 0 PA-GE 
+Dec 12 16:30:47.040 HYPERVISOR: exec_cmd: nio create_udp udp-9aebe8e6-3fe9-4639-a247-c5c7fbf4d42c 10082 127.0.0.1 10083 
+Dec 12 16:30:47.290 HYPERVISOR: exec_cmd: vm slot_add_nio_binding London 5 0 udp-9aebe8e6-3fe9-4639-a247-c5c7fbf4d42c 
+Dec 12 16:30:47.290 HYPERVISOR: exec_cmd: vm get_status London 

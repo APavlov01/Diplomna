@@ -1,0 +1,37 @@
+Dec 12 16:30:42.885 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:42.885 HYPERVISOR: Started on IP = localhost, TCP port = 49870.
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:43.385 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\cd970b1c-c378-4af5-acf2-13b544273171 
+Dec 12 16:30:43.385 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\cd970b1c-c378-4af5-acf2-13b544273171
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm create Amsterdam 13 c7200 
+Dec 12 16:30:43.385 VM: VM Amsterdam created.
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm set_con_tcp_port Amsterdam 5012 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: c7200 get_mac_addr Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_add_binding Amsterdam 0 0 C7200-IO-FE 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm set_disk0 Amsterdam 0 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm set_exec_area Amsterdam 64 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm set_idle_pc Amsterdam 0x63185884 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm set_ios Amsterdam C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: c7200 set_mac_addr Amsterdam ca0d.0fb0.0000 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm set_nvram Amsterdam 512 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_remove_binding Amsterdam 0 0 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_add_binding Amsterdam 0 0 C7200-IO-GE-E 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_add_binding Amsterdam 1 0 PA-GE 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_add_binding Amsterdam 2 0 PA-GE 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_add_binding Amsterdam 3 0 PA-GE 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_add_binding Amsterdam 4 0 PA-GE 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm get_status Amsterdam 
+Dec 12 16:30:43.385 HYPERVISOR: exec_cmd: vm slot_add_binding Amsterdam 5 0 PA-GE 
+Dec 12 16:30:46.728 HYPERVISOR: exec_cmd: nio create_udp udp-d2e04281-e05c-42f9-81d4-0dbb6921c9cd 10076 127.0.0.1 10077 
+Dec 12 16:30:46.978 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Amsterdam 5 0 udp-d2e04281-e05c-42f9-81d4-0dbb6921c9cd 
+Dec 12 16:30:46.978 HYPERVISOR: exec_cmd: vm get_status Amsterdam 

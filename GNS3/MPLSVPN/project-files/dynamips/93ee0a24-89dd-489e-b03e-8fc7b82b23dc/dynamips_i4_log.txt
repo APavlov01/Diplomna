@@ -1,0 +1,46 @@
+Dec 12 16:30:37.855 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:37.855 HYPERVISOR: Started on IP = localhost, TCP port = 49843.
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:38.355 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\93ee0a24-89dd-489e-b03e-8fc7b82b23dc 
+Dec 12 16:30:38.355 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\93ee0a24-89dd-489e-b03e-8fc7b82b23dc
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm create Madrid 4 c7200 
+Dec 12 16:30:38.355 VM: VM Madrid created.
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm set_con_tcp_port Madrid 5017 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: c7200 get_mac_addr Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_add_binding Madrid 0 0 C7200-IO-FE 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm set_disk0 Madrid 0 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm set_exec_area Madrid 64 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm set_idle_pc Madrid 0x63185884 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm set_ios Madrid C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: c7200 set_mac_addr Madrid ca04.2164.0000 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm set_nvram Madrid 512 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_remove_binding Madrid 0 0 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_add_binding Madrid 0 0 C7200-IO-GE-E 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_add_binding Madrid 1 0 PA-GE 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_add_binding Madrid 2 0 PA-GE 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_add_binding Madrid 3 0 PA-GE 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_add_binding Madrid 4 0 PA-GE 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:38.355 HYPERVISOR: exec_cmd: vm slot_add_binding Madrid 5 0 PA-GE 
+Dec 12 16:30:44.822 HYPERVISOR: exec_cmd: nio create_udp udp-bc6de908-9224-4b40-a7b7-ddd1be8a2daa 10010 127.0.0.1 10011 
+Dec 12 16:30:45.072 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Madrid 0 0 udp-bc6de908-9224-4b40-a7b7-ddd1be8a2daa 
+Dec 12 16:30:45.072 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:46.353 HYPERVISOR: exec_cmd: nio create_udp udp-431fad3c-b188-4408-a615-e25356c67e22 10040 127.0.0.1 10041 
+Dec 12 16:30:46.353 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Madrid 1 0 udp-431fad3c-b188-4408-a615-e25356c67e22 
+Dec 12 16:30:46.353 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:46.525 HYPERVISOR: exec_cmd: nio create_udp udp-bcb57027-2057-4a74-8747-4db3e10a92f8 10056 127.0.0.1 10057 
+Dec 12 16:30:46.525 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Madrid 2 0 udp-bcb57027-2057-4a74-8747-4db3e10a92f8 
+Dec 12 16:30:46.525 HYPERVISOR: exec_cmd: vm get_status Madrid 
+Dec 12 16:30:46.650 HYPERVISOR: exec_cmd: nio create_udp udp-c4e9c50f-8342-44bd-b695-a5892d5adbbf 10068 127.0.0.1 10069 
+Dec 12 16:30:46.665 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Madrid 3 0 udp-c4e9c50f-8342-44bd-b695-a5892d5adbbf 
+Dec 12 16:30:46.665 HYPERVISOR: exec_cmd: vm get_status Madrid 

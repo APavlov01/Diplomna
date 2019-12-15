@@ -1,0 +1,46 @@
+Dec 12 16:30:40.120 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:40.120 HYPERVISOR: Started on IP = localhost, TCP port = 49855.
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:40.620 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\763e586c-90cd-46d7-afd8-35ee72907c06 
+Dec 12 16:30:40.620 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\763e586c-90cd-46d7-afd8-35ee72907c06
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm create Frankfurt 8 c7200 
+Dec 12 16:30:40.620 VM: VM Frankfurt created.
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm set_con_tcp_port Frankfurt 5021 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: c7200 get_mac_addr Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_add_binding Frankfurt 0 0 C7200-IO-FE 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm set_disk0 Frankfurt 0 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm set_exec_area Frankfurt 64 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm set_idle_pc Frankfurt 0x63185884 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm set_ios Frankfurt C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: c7200 set_mac_addr Frankfurt ca08.15bc.0000 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm set_nvram Frankfurt 512 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_remove_binding Frankfurt 0 0 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_add_binding Frankfurt 0 0 C7200-IO-GE-E 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_add_binding Frankfurt 1 0 PA-GE 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_add_binding Frankfurt 2 0 PA-GE 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_add_binding Frankfurt 3 0 PA-GE 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_add_binding Frankfurt 4 0 PA-GE 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:40.620 HYPERVISOR: exec_cmd: vm slot_add_binding Frankfurt 5 0 PA-GE 
+Dec 12 16:30:45.978 HYPERVISOR: exec_cmd: nio create_udp udp-39cec428-b0ba-4ab8-9514-f2c96082af3c 10028 127.0.0.1 10029 
+Dec 12 16:30:46.228 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Frankfurt 1 0 udp-39cec428-b0ba-4ab8-9514-f2c96082af3c 
+Dec 12 16:30:46.228 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:46.290 HYPERVISOR: exec_cmd: nio create_udp udp-4e3a765d-1d73-4e06-b529-e166a4a15f27 10034 127.0.0.1 10035 
+Dec 12 16:30:46.290 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Frankfurt 2 0 udp-4e3a765d-1d73-4e06-b529-e166a4a15f27 
+Dec 12 16:30:46.290 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:48.665 HYPERVISOR: exec_cmd: nio create_udp udp-40ebb3e9-bcb6-435a-903e-cd4731c3d445 10118 127.0.0.1 10119 
+Dec 12 16:30:48.665 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Frankfurt 0 0 udp-40ebb3e9-bcb6-435a-903e-cd4731c3d445 
+Dec 12 16:30:48.665 HYPERVISOR: exec_cmd: vm get_status Frankfurt 
+Dec 12 16:30:48.790 HYPERVISOR: exec_cmd: nio create_udp udp-216caf07-949e-4aa3-89c0-78520511a195 10130 127.0.0.1 10131 
+Dec 12 16:30:48.790 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Frankfurt 3 0 udp-216caf07-949e-4aa3-89c0-78520511a195 
+Dec 12 16:30:48.790 HYPERVISOR: exec_cmd: vm get_status Frankfurt 

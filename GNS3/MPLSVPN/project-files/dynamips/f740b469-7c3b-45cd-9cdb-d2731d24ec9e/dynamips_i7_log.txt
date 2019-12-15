@@ -1,0 +1,49 @@
+Dec 12 16:30:39.527 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:39.527 HYPERVISOR: Started on IP = localhost, TCP port = 49852.
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:40.042 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\f740b469-7c3b-45cd-9cdb-d2731d24ec9e 
+Dec 12 16:30:40.042 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\f740b469-7c3b-45cd-9cdb-d2731d24ec9e
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm create Stockholm 7 c7200 
+Dec 12 16:30:40.042 VM: VM Stockholm created.
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm set_con_tcp_port Stockholm 5020 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: c7200 get_mac_addr Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_add_binding Stockholm 0 0 C7200-IO-FE 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm set_disk0 Stockholm 0 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm set_exec_area Stockholm 64 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm set_idle_pc Stockholm 0x63185884 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm set_ios Stockholm C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: c7200 set_mac_addr Stockholm ca07.226c.0000 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm set_nvram Stockholm 512 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_remove_binding Stockholm 0 0 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_add_binding Stockholm 0 0 C7200-IO-GE-E 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_add_binding Stockholm 1 0 PA-GE 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_add_binding Stockholm 2 0 PA-GE 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_add_binding Stockholm 3 0 PA-GE 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_add_binding Stockholm 4 0 PA-GE 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:40.042 HYPERVISOR: exec_cmd: vm slot_add_binding Stockholm 5 0 PA-GE 
+Dec 12 16:30:45.369 HYPERVISOR: exec_cmd: nio create_udp udp-48a59a80-e6c7-4033-8d77-a5a0d488fab7 10016 127.0.0.1 10017 
+Dec 12 16:30:45.619 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Stockholm 1 0 udp-48a59a80-e6c7-4033-8d77-a5a0d488fab7 
+Dec 12 16:30:45.619 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:45.915 HYPERVISOR: exec_cmd: nio create_udp udp-a45c68f6-f1f2-4da5-88ce-19148fd8f41b 10022 127.0.0.1 10023 
+Dec 12 16:30:45.915 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Stockholm 2 0 udp-a45c68f6-f1f2-4da5-88ce-19148fd8f41b 
+Dec 12 16:30:45.915 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:47.025 HYPERVISOR: exec_cmd: nio create_udp udp-6cb1d4db-9edf-458e-abd1-569a64fe07f6 10080 127.0.0.1 10081 
+Dec 12 16:30:47.025 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Stockholm 5 0 udp-6cb1d4db-9edf-458e-abd1-569a64fe07f6 
+Dec 12 16:30:47.025 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:48.587 HYPERVISOR: exec_cmd: nio create_udp udp-415e19a5-1e50-45dc-9d05-a848c63218af 10112 127.0.0.1 10113 
+Dec 12 16:30:48.602 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Stockholm 0 0 udp-415e19a5-1e50-45dc-9d05-a848c63218af 
+Dec 12 16:30:48.602 HYPERVISOR: exec_cmd: vm get_status Stockholm 
+Dec 12 16:30:48.727 HYPERVISOR: exec_cmd: nio create_udp udp-6cd246c2-47b1-4c4e-a293-df03213c39f2 10124 127.0.0.1 10125 
+Dec 12 16:30:48.727 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Stockholm 3 0 udp-6cd246c2-47b1-4c4e-a293-df03213c39f2 
+Dec 12 16:30:48.727 HYPERVISOR: exec_cmd: vm get_status Stockholm 

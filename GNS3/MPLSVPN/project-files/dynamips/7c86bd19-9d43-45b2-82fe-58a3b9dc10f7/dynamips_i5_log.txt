@@ -1,0 +1,49 @@
+Dec 12 16:30:38.402 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:38.402 HYPERVISOR: Started on IP = localhost, TCP port = 49846.
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:38.902 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\7c86bd19-9d43-45b2-82fe-58a3b9dc10f7 
+Dec 12 16:30:38.902 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\7c86bd19-9d43-45b2-82fe-58a3b9dc10f7
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm create Munich 5 c7200 
+Dec 12 16:30:38.902 VM: VM Munich created.
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm set_con_tcp_port Munich 5018 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: c7200 get_mac_addr Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_add_binding Munich 0 0 C7200-IO-FE 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm set_disk0 Munich 0 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm set_exec_area Munich 64 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm set_idle_pc Munich 0x63185884 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm set_ios Munich C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: c7200 set_mac_addr Munich ca05.22b8.0000 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm set_nvram Munich 512 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_remove_binding Munich 0 0 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_add_binding Munich 0 0 C7200-IO-GE-E 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_add_binding Munich 1 0 PA-GE 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_add_binding Munich 2 0 PA-GE 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_add_binding Munich 3 0 PA-GE 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_add_binding Munich 4 0 PA-GE 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:38.902 HYPERVISOR: exec_cmd: vm slot_add_binding Munich 5 0 PA-GE 
+Dec 12 16:30:45.119 HYPERVISOR: exec_cmd: nio create_udp udp-25a34373-b538-4819-b974-c40779170742 10014 127.0.0.1 10015 
+Dec 12 16:30:45.369 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Munich 3 0 udp-25a34373-b538-4819-b974-c40779170742 
+Dec 12 16:30:45.369 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:45.962 HYPERVISOR: exec_cmd: nio create_udp udp-c1d09a99-c514-4791-a825-3244e752303c 10026 127.0.0.1 10027 
+Dec 12 16:30:45.978 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Munich 4 0 udp-c1d09a99-c514-4791-a825-3244e752303c 
+Dec 12 16:30:45.978 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:46.478 HYPERVISOR: exec_cmd: nio create_udp udp-43801947-1f5b-425a-b335-6f9a0bb4150e 10052 127.0.0.1 10053 
+Dec 12 16:30:46.478 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Munich 0 0 udp-43801947-1f5b-425a-b335-6f9a0bb4150e 
+Dec 12 16:30:46.478 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:46.665 HYPERVISOR: exec_cmd: nio create_udp udp-b4e1a6ac-927a-49cb-adda-f71129af54db 10070 127.0.0.1 10071 
+Dec 12 16:30:46.665 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Munich 1 0 udp-b4e1a6ac-927a-49cb-adda-f71129af54db 
+Dec 12 16:30:46.665 HYPERVISOR: exec_cmd: vm get_status Munich 
+Dec 12 16:30:46.728 HYPERVISOR: exec_cmd: nio create_udp udp-00609805-722f-4a56-b1f2-30922f5bdc72 10074 127.0.0.1 10075 
+Dec 12 16:30:46.728 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Munich 5 0 udp-00609805-722f-4a56-b1f2-30922f5bdc72 
+Dec 12 16:30:46.728 HYPERVISOR: exec_cmd: vm get_status Munich 

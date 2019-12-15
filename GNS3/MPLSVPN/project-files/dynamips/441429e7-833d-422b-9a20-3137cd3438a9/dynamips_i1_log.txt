@@ -1,0 +1,46 @@
+Dec 12 16:30:36.449 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:36.449 HYPERVISOR: Started on IP = localhost, TCP port = 49834.
+Dec 12 16:30:36.637 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:36.637 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:36.684 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\441429e7-833d-422b-9a20-3137cd3438a9 
+Dec 12 16:30:36.684 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\441429e7-833d-422b-9a20-3137cd3438a9
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm create Sofia 1 c7200 
+Dec 12 16:30:36.684 VM: VM Sofia created.
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm set_con_tcp_port Sofia 5014 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: c7200 get_mac_addr Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_add_binding Sofia 0 0 C7200-IO-FE 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm set_disk0 Sofia 0 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm set_exec_area Sofia 64 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm set_idle_pc Sofia 0x63185884 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm set_ios Sofia C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: c7200 set_mac_addr Sofia ca01.1f78.0000 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm set_nvram Sofia 512 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_remove_binding Sofia 0 0 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_add_binding Sofia 0 0 C7200-IO-GE-E 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_add_binding Sofia 1 0 PA-GE 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_add_binding Sofia 2 0 PA-GE 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_add_binding Sofia 3 0 PA-GE 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_add_binding Sofia 4 0 PA-GE 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:36.684 HYPERVISOR: exec_cmd: vm slot_add_binding Sofia 5 0 PA-GE 
+Dec 12 16:30:44.276 HYPERVISOR: exec_cmd: nio create_udp udp-c3d91467-4f81-44f0-8932-aa7825808607 10004 127.0.0.1 10005 
+Dec 12 16:30:44.526 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Sofia 0 0 udp-c3d91467-4f81-44f0-8932-aa7825808607 
+Dec 12 16:30:44.526 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:46.415 HYPERVISOR: exec_cmd: nio create_udp udp-cb4ead07-60b8-4ecb-9b81-775e63060ebc 10046 127.0.0.1 10047 
+Dec 12 16:30:46.415 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Sofia 1 0 udp-cb4ead07-60b8-4ecb-9b81-775e63060ebc 
+Dec 12 16:30:46.415 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:46.462 HYPERVISOR: exec_cmd: nio create_udp udp-392aa728-f425-409a-b8af-4569dd88d0c4 10050 127.0.0.1 10051 
+Dec 12 16:30:46.462 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Sofia 2 0 udp-392aa728-f425-409a-b8af-4569dd88d0c4 
+Dec 12 16:30:46.462 HYPERVISOR: exec_cmd: vm get_status Sofia 
+Dec 12 16:30:46.587 HYPERVISOR: exec_cmd: nio create_udp udp-2b3710a4-1cc4-4b7d-8b0e-3d65c4761587 10062 127.0.0.1 10063 
+Dec 12 16:30:46.587 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Sofia 3 0 udp-2b3710a4-1cc4-4b7d-8b0e-3d65c4761587 
+Dec 12 16:30:46.587 HYPERVISOR: exec_cmd: vm get_status Sofia 

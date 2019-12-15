@@ -49,8 +49,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg height=\"33\" width=\"63\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"MS Shell Dlg 2\" font-size=\"16.0\" font-weight=\"bold\">IS-IS</text></svg>",
-                "x": 36,
-                "y": 136,
+                "x": -247,
+                "y": -59,
                 "z": 2
             },
             {
@@ -177,6 +177,15 @@
                 "svg": "<svg height=\"167\" width=\"305\"><rect fill=\"#ff9ec5\" fill-opacity=\"1.0\" height=\"167\" stroke=\"#000000\" stroke-width=\"2\" width=\"305\" /></svg>",
                 "x": 542,
                 "y": 56,
+                "z": 0
+            },
+            {
+                "drawing_id": "22d28769-f90c-4d8e-bd3d-9c5a373df6f1",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"498.8095238095235\" width=\"399.7142857142856\"><ellipse cx=\"199\" cy=\"249\" fill=\"#ff8000\" fill-opacity=\"1.0\" rx=\"200\" ry=\"250\" stroke=\"#000000\" stroke-width=\"2\" /></svg>",
+                "x": -329,
+                "y": -273,
                 "z": 0
             }
         ],
@@ -575,8 +584,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "g5/0",
-                            "x": 36,
-                            "y": 49
+                            "x": 38,
+                            "y": 48
                         },
                         "node_id": "cd970b1c-c378-4af5-acf2-13b544273171",
                         "port_number": 0
@@ -1275,8 +1284,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "a71646ae-ccdb-4b14-8d09-c24c972472c3",
                 "width": 66,
-                "x": -70,
-                "y": 27,
+                "x": -71,
+                "y": 28,
                 "z": 1
             },
             {

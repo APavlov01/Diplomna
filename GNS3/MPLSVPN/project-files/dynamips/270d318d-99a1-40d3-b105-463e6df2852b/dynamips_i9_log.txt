@@ -1,0 +1,46 @@
+Dec 12 16:30:40.667 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:40.667 HYPERVISOR: Started on IP = localhost, TCP port = 49858.
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:41.167 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\270d318d-99a1-40d3-b105-463e6df2852b 
+Dec 12 16:30:41.167 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\270d318d-99a1-40d3-b105-463e6df2852b
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm create Copenhagen 9 c7200 
+Dec 12 16:30:41.167 VM: VM Copenhagen created.
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm set_con_tcp_port Copenhagen 5022 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: c7200 get_mac_addr Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_add_binding Copenhagen 0 0 C7200-IO-FE 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm set_disk0 Copenhagen 0 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm set_exec_area Copenhagen 64 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm set_idle_pc Copenhagen 0x63185884 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm set_ios Copenhagen C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: c7200 set_mac_addr Copenhagen ca09.19b4.0000 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm set_nvram Copenhagen 512 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_remove_binding Copenhagen 0 0 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_add_binding Copenhagen 0 0 C7200-IO-GE-E 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_add_binding Copenhagen 1 0 PA-GE 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_add_binding Copenhagen 2 0 PA-GE 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_add_binding Copenhagen 3 0 PA-GE 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_add_binding Copenhagen 4 0 PA-GE 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:41.167 HYPERVISOR: exec_cmd: vm slot_add_binding Copenhagen 5 0 PA-GE 
+Dec 12 16:30:47.915 HYPERVISOR: exec_cmd: nio create_udp udp-6928ae6a-d904-4867-93bc-50b7b347f149 10094 127.0.0.1 10095 
+Dec 12 16:30:48.165 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Copenhagen 1 0 udp-6928ae6a-d904-4867-93bc-50b7b347f149 
+Dec 12 16:30:48.165 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:48.462 HYPERVISOR: exec_cmd: nio create_udp udp-05309239-f7a9-47d4-b8aa-4d98d397d3ef 10100 127.0.0.1 10101 
+Dec 12 16:30:48.462 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Copenhagen 0 0 udp-05309239-f7a9-47d4-b8aa-4d98d397d3ef 
+Dec 12 16:30:48.462 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:48.587 HYPERVISOR: exec_cmd: nio create_udp udp-47297bce-dd31-4556-a6cf-b0d7d36f12b8 10110 127.0.0.1 10111 
+Dec 12 16:30:48.587 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Copenhagen 2 0 udp-47297bce-dd31-4556-a6cf-b0d7d36f12b8 
+Dec 12 16:30:48.587 HYPERVISOR: exec_cmd: vm get_status Copenhagen 
+Dec 12 16:30:48.774 HYPERVISOR: exec_cmd: nio create_udp udp-e01aa806-5bb7-489f-ad60-2a6801e62197 10128 127.0.0.1 10129 
+Dec 12 16:30:48.790 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Copenhagen 3 0 udp-e01aa806-5bb7-489f-ad60-2a6801e62197 
+Dec 12 16:30:48.790 HYPERVISOR: exec_cmd: vm get_status Copenhagen 

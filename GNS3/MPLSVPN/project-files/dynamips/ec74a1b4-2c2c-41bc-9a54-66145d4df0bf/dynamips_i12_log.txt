@@ -1,0 +1,40 @@
+Dec 12 16:30:42.323 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:42.323 HYPERVISOR: Started on IP = localhost, TCP port = 49867.
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:42.823 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\ec74a1b4-2c2c-41bc-9a54-66145d4df0bf 
+Dec 12 16:30:42.823 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\ec74a1b4-2c2c-41bc-9a54-66145d4df0bf
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm create Bulbank-Branch 12 c7200 
+Dec 12 16:30:42.823 VM: VM Bulbank-Branch created.
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm set_con_tcp_port Bulbank-Branch 5011 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: c7200 get_mac_addr Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_add_binding Bulbank-Branch 0 0 C7200-IO-FE 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm set_disk0 Bulbank-Branch 0 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm set_exec_area Bulbank-Branch 64 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm set_idle_pc Bulbank-Branch 0x63185884 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm set_ios Bulbank-Branch C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: c7200 set_mac_addr Bulbank-Branch ca0c.2090.0000 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm set_nvram Bulbank-Branch 512 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_remove_binding Bulbank-Branch 0 0 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_add_binding Bulbank-Branch 0 0 C7200-IO-GE-E 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_add_binding Bulbank-Branch 1 0 PA-GE 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_add_binding Bulbank-Branch 2 0 PA-GE 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_add_binding Bulbank-Branch 3 0 PA-GE 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_add_binding Bulbank-Branch 4 0 PA-GE 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:42.823 HYPERVISOR: exec_cmd: vm slot_add_binding Bulbank-Branch 5 0 PA-GE 
+Dec 12 16:30:47.587 HYPERVISOR: exec_cmd: nio create_udp udp-b713a278-210b-4656-a64c-05d46c627de6 10088 127.0.0.1 10089 
+Dec 12 16:30:47.837 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Bulbank-Branch 0 0 udp-b713a278-210b-4656-a64c-05d46c627de6 
+Dec 12 16:30:47.837 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 
+Dec 12 16:30:47.915 HYPERVISOR: exec_cmd: nio create_udp udp-d0aea2f7-3e7d-486c-b322-f889e3efee83 10092 127.0.0.1 10093 
+Dec 12 16:30:47.915 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Bulbank-Branch 1 0 udp-d0aea2f7-3e7d-486c-b322-f889e3efee83 
+Dec 12 16:30:47.915 HYPERVISOR: exec_cmd: vm get_status Bulbank-Branch 

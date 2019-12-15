@@ -1,0 +1,32 @@
+Dec 12 16:30:36.746 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:36.746 HYPERVISOR: Started on IP = localhost, TCP port = 49837.
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:37.246 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\1711f727-2e42-4462-8fca-3915113cae34 
+Dec 12 16:30:37.246 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\1711f727-2e42-4462-8fca-3915113cae34
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm create DSK-Central 2 c7200 
+Dec 12 16:30:37.246 VM: VM DSK-Central created.
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm set_con_tcp_port DSK-Central 5015 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: c7200 get_mac_addr DSK-Central 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm get_status DSK-Central 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Central 0 0 C7200-IO-FE 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm set_disk0 DSK-Central 0 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm set_exec_area DSK-Central 64 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm get_status DSK-Central 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm set_idle_pc DSK-Central 0x63185884 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm set_ios DSK-Central C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: c7200 set_mac_addr DSK-Central ca02.11c8.0000 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm set_nvram DSK-Central 512 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm get_status DSK-Central 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm slot_remove_binding DSK-Central 0 0 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm get_status DSK-Central 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Central 0 0 C7200-IO-GE-E 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm get_status DSK-Central 
+Dec 12 16:30:37.246 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Central 1 0 PA-GE 
+Dec 12 16:30:43.979 HYPERVISOR: exec_cmd: nio create_udp udp-31cba98e-691c-4f72-9114-74028005026c 10002 127.0.0.1 10003 
+Dec 12 16:30:44.276 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSK-Central 0 0 udp-31cba98e-691c-4f72-9114-74028005026c 
+Dec 12 16:30:44.276 HYPERVISOR: exec_cmd: vm get_status DSK-Central 
+Dec 12 16:30:46.337 HYPERVISOR: exec_cmd: nio create_udp udp-ba4b13d7-6433-46ce-9b65-3948e1a94889 10038 127.0.0.1 10039 
+Dec 12 16:30:46.337 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSK-Central 1 0 udp-ba4b13d7-6433-46ce-9b65-3948e1a94889 
+Dec 12 16:30:46.337 HYPERVISOR: exec_cmd: vm get_status DSK-Central 

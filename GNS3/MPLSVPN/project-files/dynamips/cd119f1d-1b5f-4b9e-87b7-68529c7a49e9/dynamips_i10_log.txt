@@ -1,0 +1,40 @@
+Dec 12 16:30:41.229 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 12 16:30:41.229 HYPERVISOR: Started on IP = localhost, TCP port = 49861.
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips 
+Dec 12 16:30:41.729 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\cd119f1d-1b5f-4b9e-87b7-68529c7a49e9 
+Dec 12 16:30:41.729 GENERAL: working_dir=D:\Projects\Diplomna\GNS3\MPLSVPN\project-files\dynamips\cd119f1d-1b5f-4b9e-87b7-68529c7a49e9
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm create DSK-Branch 10 c7200 
+Dec 12 16:30:41.729 VM: VM DSK-Branch created.
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm set_con_tcp_port DSK-Branch 5009 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: c7200 get_mac_addr DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Branch 0 0 C7200-IO-FE 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm set_disk0 DSK-Branch 0 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm set_exec_area DSK-Branch 64 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm set_idle_pc DSK-Branch 0x63185884 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm set_ios DSK-Branch C:/Users/Alex/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: c7200 set_mac_addr DSK-Branch ca0a.0388.0000 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm set_nvram DSK-Branch 512 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_remove_binding DSK-Branch 0 0 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Branch 0 0 C7200-IO-GE-E 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Branch 1 0 PA-GE 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Branch 2 0 PA-GE 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Branch 3 0 PA-GE 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Branch 4 0 PA-GE 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:41.729 HYPERVISOR: exec_cmd: vm slot_add_binding DSK-Branch 5 0 PA-GE 
+Dec 12 16:30:48.212 HYPERVISOR: exec_cmd: nio create_udp udp-5283c5bc-fece-49da-9fee-529c17439d7f 10098 127.0.0.1 10099 
+Dec 12 16:30:48.462 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSK-Branch 0 0 udp-5283c5bc-fece-49da-9fee-529c17439d7f 
+Dec 12 16:30:48.462 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
+Dec 12 16:30:48.524 HYPERVISOR: exec_cmd: nio create_udp udp-82c5faad-3ff6-45b3-a5f5-51587569f548 10106 127.0.0.1 10107 
+Dec 12 16:30:48.524 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DSK-Branch 1 0 udp-82c5faad-3ff6-45b3-a5f5-51587569f548 
+Dec 12 16:30:48.524 HYPERVISOR: exec_cmd: vm get_status DSK-Branch 
