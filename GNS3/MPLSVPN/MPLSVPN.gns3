@@ -129,7 +129,7 @@
                 "drawing_id": "a18074e2-23c5-4494-9088-7130866202e3",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"27\" width=\"187\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"MS Shell Dlg 2\" font-size=\"12.0\" font-weight=\"bold\">Lo1:192.168.101.1/24</text></svg>",
+                "svg": "<svg height=\"32\" width=\"237\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"MS Shell Dlg 2\" font-size=\"12.0\" font-weight=\"bold\">Lo1:192.168.101.1/24</text></svg>",
                 "x": -708,
                 "y": -161,
                 "z": 2
